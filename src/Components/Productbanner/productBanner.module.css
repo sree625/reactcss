@@ -1,0 +1,35 @@
+.product_wrap{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.product_wrap h2 {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+.showmore {
+  color: #b88e2f;
+  border: 1px solid #b88e2f;
+  margin-top: 20px;
+  background-color: #ffff;
+  width: 245px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  left:500px;
+}
+
+@media (max-width: 768px){
+    .showmore{
+        position: relative;
+        left: 46px;
+       
+    }
+}
